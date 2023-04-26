@@ -1,0 +1,53 @@
+.headerWrapper{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 47px 63px;
+    z-index: 99999;
+    height: 200px;
+    .menuWrapper{
+        background: #fff; 
+        width: 240px;
+        transition: all ease-out 0.3s
+    }
+    .menuBlock{
+        position: absolute;
+        right: 70px;
+        overflow: hidden;
+        transition: all ease-out 0.3s;
+        .itemMenu{
+            p{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 38px;
+                line-height: 45px;
+                color: #5B5B38;
+                padding: 24px 0px;
+                text-align: right;
+                cursor: pointer;
+            }
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 59px;
+            height: 4px;
+            background: #5B5B38;
+            border-radius: 6px;
+        }
+        &::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 59px;
+            height: 4px;
+            background: #5B5B38;
+            border-radius: 6px;
+        }
+    }
+}

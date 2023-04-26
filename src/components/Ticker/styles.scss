@@ -1,0 +1,20 @@
+.tickerBlock{
+    width: 100%;
+    white-space: nowrap;
+    margin-top: 46px;
+    div{
+        overflow-y: hidden;
+    }
+    .tickerText{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 62px;
+        line-height: 73px;
+        color: #0D0D0D;
+        img{
+            margin: 0px 16px;
+        }
+    }
+}
+    
